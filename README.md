@@ -1,5 +1,7 @@
 # Personal Homepage Design
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FEkreke%2Fhomepage)
+
 This is a code bundle for Personal Homepage Design. The original project is available at https://www.figma.com/design/Po1f28LjshGKaS6lJdBAKk/Personal-Homepage-Design.
 
 ## Running the code
