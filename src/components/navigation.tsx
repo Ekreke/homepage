@@ -58,12 +58,7 @@ export function Navigation({ currentLanguage, onLanguageChange }: NavigationProp
               Portfolio
             </button>
             <div className="hidden md:flex items-center space-x-6">
-              <button
-                onClick={() => scrollToSection('tools')}
-                className="hover:text-primary/80 transition-colors"
-              >
-                Tools
-              </button>
+              
               <button
                 onClick={() => scrollToSection('about')}
                 className="hover:text-primary/80 transition-colors"
@@ -82,12 +77,7 @@ export function Navigation({ currentLanguage, onLanguageChange }: NavigationProp
               >
                 Projects
               </button>
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="hover:text-primary/80 transition-colors"
-              >
-                Contact
-              </button>
+              
             </div>
           </div>
 
