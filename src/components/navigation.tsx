@@ -58,12 +58,7 @@ export function Navigation({ currentLanguage, onLanguageChange }: NavigationProp
               Portfolio
             </button>
             <div className="hidden md:flex items-center space-x-6">
-              <button
-                onClick={() => scrollToSection('tools')}
-                className="hover:text-primary/80 transition-colors"
-              >
-                Tools
-              </button>
+              
               <button
                 onClick={() => scrollToSection('about')}
                 className="hover:text-primary/80 transition-colors"
