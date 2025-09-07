@@ -77,12 +77,7 @@ export function Navigation({ currentLanguage, onLanguageChange }: NavigationProp
               >
                 Projects
               </button>
-              <button
-                onClick={() => scrollToSection('contact')}
-                className="hover:text-primary/80 transition-colors"
-              >
-                Contact
-              </button>
+              
             </div>
           </div>
 
