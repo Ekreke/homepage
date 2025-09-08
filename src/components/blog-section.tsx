@@ -161,10 +161,12 @@ export function BlogSection({ language }: BlogSectionProps) {
         </div>
 
         <div className="text-center">
-          <Button variant="outline" size="lg" className="group">
-            {t.readAll}
-            <ArrowUpRight className="ml-2 h-4 w-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-          </Button>
+          <a href="https://blog.ekreke.cn/" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" size="lg" className="group">
+              {t.readAll}
+              <ArrowUpRight className="ml-2 h-4 w-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>

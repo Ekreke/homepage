@@ -7,19 +7,19 @@ interface FooterProps {
 export function Footer({ language }: FooterProps) {
   const content = {
     en: {
-      copyright: "© 2024 Jane Doe. All rights reserved.",
+      copyright: "© 2025 John Paul. All rights reserved.",
       madeWith: "Made with",
       and: "and",
       love: "love"
     },
     zh: {
-      copyright: "© 2024 简·多伊。保留所有权利。",
+      copyright: "© 2025 John Paul. 保留所有权利。",
       madeWith: "使用",
       and: "和",
       love: "爱心制作"
     },
     'zh-TW': {
-      copyright: "© 2024 簡·多伊。保留所有權利。",
+      copyright: "© 2025 John Paul. 保留所有權利。",
       madeWith: "使用",
       and: "和",
       love: "愛心製作"
